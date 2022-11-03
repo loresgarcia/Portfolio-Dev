@@ -1,0 +1,38 @@
+.projetos {
+    width: 1200px;
+    margin: 64px auto;
+}
+
+.projetos__titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 24px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.projetos__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projetos__projeto {
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .projetos {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .projetos {
+        width: 320px;
+        justify-content: space-around;
+    }
+
+    .projetos__projeto {
+        width: 320px;
+    }
+}

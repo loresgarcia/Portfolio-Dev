@@ -1,0 +1,50 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.social__titulo {
+    font-family: var(--fonte-titulos);
+    margin-top: 90px;
+    margin-bottom: 64px;
+    font-size: 24px;
+}
+
+.social__botao {
+    border: 2px solid var(--azul-claro);
+    width: 375px;
+    margin-bottom: 32px;
+    padding: 16px 0;
+    border-radius: 8px;
+    color: var(--branco);
+    font-weight: var(--negrito);
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__texto {
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .social {
+        width: 320px;
+        text-align: center;
+    }
+
+    .social__botao {
+        width: 320px;
+    }
+}
