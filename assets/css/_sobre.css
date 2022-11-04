@@ -13,6 +13,10 @@
 .sobre__texto {
     font-size: 24px;
     line-height: 36px;
+    column-count: 2;
+    column-width: 580px;
+    column-gap: 40px;
+    margin-bottom: 80px;
 }
 
 .sobre__texto p {
@@ -21,8 +25,8 @@
 
 .sobre__imagem--desktop {
     width: 488px;
-    float: right;
     margin-left: 16px;
+    margin-bottom: 24px;
 }
 
 .sobre__imagem--mobile {
